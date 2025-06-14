@@ -1,0 +1,343 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Zeke Gym studio - Zeke Gym studio | Professional gym studio Services</title>
+            <meta name="description" content="Professional gym studio Services for Zeke Gym studio. Find your inner strenth.">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet" href="css/custom.css"> <!-- Add this line -->
+            <link rel="stylesheet" href="css/index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+        </head>
+                
+        
+    <body>
+        
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <a href="index.html" class="logo">Zeke Gym studio</a>
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-heading">Transform Your Body and Mind</h1>
+        <p class="hero-subheading">Join Our Gym Today</p>
+        <a href="contact.html" class="hero-cta">Book Your First Trainer Appointment</a>
+    </div>
+</section>
+
+<style>
+    .hero-section {
+        position: relative;
+        height: 100vh;
+        min-height: 600px;
+        background-image: url('assets/images/gym-studio1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 0 20px;
+    }
+    
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+    }
+    
+    .hero-heading {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        font-weight: 800;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    .hero-subheading {
+        font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+    
+    .hero-cta {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #c2185b;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 4px;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .hero-cta:hover {
+        background-color: #e91e63;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media (max-width: 768px) {
+        .hero-section {
+            min-height: 500px;
+        }
+        
+        .hero-heading {
+            margin-bottom: 15px;
+        }
+        
+        .hero-cta {
+            padding: 12px 25px;
+        }
+    }
+</style>
+
+            <!-- Services Preview -->
+            <section class="section services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Gym Studio Services</h2>
+            <p class="section-subtitle">Transform your fitness journey with our premium services</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <h3 class="service-title">Personal Training</h3>
+                <p class="service-description">
+                    Get one-on-one coaching from our certified trainers who will create customized workout plans tailored to your fitness goals. Perfect for beginners and advanced athletes alike.
+                </p>
+                <a href="services.html#personal-training" class="btn btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="service-title">Group Classes</h3>
+                <p class="service-description">
+                    Join our energetic group fitness classes including HIIT, yoga, spin, and more. Experience the motivation of working out with others while our instructors guide you.
+                </p>
+                <a href="services.html#group-classes" class="btn btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3 class="service-title">Cardio Training</h3>
+                <p class="service-description">
+                    Our state-of-the-art cardio equipment and specialized programs will help you improve endurance and burn calories efficiently in a controlled environment.
+                </p>
+                <a href="services.html#cardio-training" class="btn btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-weight-hanging"></i>
+                </div>
+                <h3 class="service-title">Strength Training</h3>
+                <p class="service-description">
+                    Build muscle and increase strength with our comprehensive weight training area featuring free weights, machines, and expert guidance on proper form.
+                </p>
+                <a href="services.html#strength-training" class="btn btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-child"></i>
+                </div>
+                <h3 class="service-title">Youth Fitness</h3>
+                <p class="service-description">
+                    Specialized programs for young athletes and teens to develop proper movement patterns, build confidence, and establish healthy fitness habits early.
+                </p>
+                <a href="services.html#youth-fitness" class="btn btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3 class="service-title">Nutrition Coaching</h3>
+                <p class="service-description">
+                    Complement your workouts with personalized nutrition plans from our certified dietitians to maximize results and develop sustainable eating habits.
+                </p>
+                <a href="services.html#nutrition-coaching" class="btn btn-learn-more">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Testimonials -->
+            <section class="section testimonials">
+  <h2 class="section-title">Client Success Stories</h2>
+  <p class="section-subtitle">Hear what our members say about their transformation</p>
+
+  <div class="testimonials-grid">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card">
+      <div class="testimonial-content">
+        <div class="stars">★★★★★</div>
+        <p>"This gym changed my life! The trainers are knowledgeable and the community is so supportive. I've lost 20lbs in just 3 months while gaining strength."</p>
+      </div>
+      <div class="testimonial-author">
+        <img src="assets/images/gym-studio1.jpg" alt="Sarah K. smiling after workout">
+        <div class="author-info">
+          <h4>Sarah K.</h4>
+          <p>Member since 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card">
+      <div class="testimonial-content">
+        <div class="stars">★★★★☆</div>
+        <p>"The best equipment and classes in town. I was hesitant to join a gym but the staff made me feel welcome from day one. My energy levels have never been higher!"</p>
+      </div>
+      <div class="testimonial-author">
+        <img src="assets/images/gym-studio2.jpg" alt="Michael T. lifting weights">
+        <div class="author-info">
+          <h4>Michael T.</h4>
+          <p>Member since 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card">
+      <div class="testimonial-content">
+        <div class="stars">★★★★★</div>
+        <p>"As a senior, I was worried about injury, but the trainers tailored a perfect program for me. I'm stronger now at 65 than I was at 40! Highly recommend."</p>
+      </div>
+      <div class="testimonial-author">
+        <img src="assets/images/gym-studio3.jpg" alt="Barbara J. doing yoga">
+        <div class="author-info">
+          <h4>Barbara J.</h4>
+          <p>Member since 2023</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+            <!-- Why Choose Us -->
+            <section class="section why-choose-us">
+    <div class="container">
+        <h2 class="section-title">Why Choose Zeke Gym Studio</h2>
+        <p class="section-subtitle">We're committed to helping you achieve your fitness goals with top-notch facilities, expert trainers, and a supportive community.</p>
+        
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-dumbbell feature-icon"></i>
+                <h3 class="feature-title">World-Class Equipment</h3>
+                <p class="feature-desc">Train with the latest fitness equipment from leading brands to maximize your workout efficiency.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-user-shield feature-icon"></i>
+                <h3 class="feature-title">Certified Trainers</h3>
+                <p class="feature-desc">Our expert coaches are nationally certified and will create personalized programs for your success.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-heartbeat feature-icon"></i>
+                <h3 class="feature-title">Results-Driven Programs</h3>
+                <p class="feature-desc">Proven training methodologies designed to help you see measurable progress in your fitness journey.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-users feature-icon"></i>
+                <h3 class="feature-title">Supportive Community</h3>
+                <p class="feature-desc">Join a welcoming environment where members motivate each other to reach their goals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Zeke Gym studio</h3>
+                        <p>Find your inner strenth</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com/gymstudio"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/gymstudio"><i class="fab fa-instagram"></i></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Info</h3>
+                        <ul class="footer-links">
+                            <li>Email: info@gmail.com</li>
+                            <li>Phone: +1 555-123-4567</li>
+                            <li>Address: 123 Yoga St, Bliss City, USA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script src="js/base.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/form-handler.js"></script>
+    </body>
+    </html>
+    
